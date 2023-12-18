@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">Bundle & Save</h2>
+        <div class="pair1">
+            <div class="checkbox">
+                <input type="checkbox" />
+            </div>
+            <div class="product1">
+                <p>1 Pair </br>DKK <span>195.00</span></p>
+            </div>
+            <div class="price">
+                <p>50% OFF</p>
+            </div>
+        </div>
+
+        <div class="pair2">
+            <div class="checkbox2">
+                <input type="checkbox" id="checkbox2" checked/>
+            </div>
+            <div class="product2">
+                <p>2 Pair </br>DKK <span>195.00</span></p>
+
+                <div class="custom">
+                    <div class="count1">
+                        <div class="one">
+                            <p>#1</p>
+                        </div>
+                        <div class="customSize">
+                            <label>Size</label></br>
+                            <select name="size" id="size">
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                        </div>
+                        <div class="customColor">
+                            <label>Color</label></br>
+                            <select name="color" id="color">
+                        <option value="black">Black</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="pink">Pink</option>
+                    </select>
+                        </div>
+                    </div>
+
+                    <div class="count2">
+                        <div class="two">
+                            <p>#2</p>
+                        </div>
+                        <div class="customSize">
+                            <select name="size" id="size">
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                        </div>
+                        <div class="customColor">
+                            <select name="color" id="color">
+                        <option value="black">Black</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="pink">Pink</option>
+                    </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="actualPrice">
+                <p>DKK <span>195.00</span></p>
+            </div>
+            <div class="price">
+                <p><span class="mostPopular">Most Popular</span></br>50% OFF</p>
+            </div>
+        </div>
+
+        <div class="pair3">
+            <div class="checkbox">
+                <input type="checkbox" />
+            </div>
+            <div class="product3">
+                <p>3 Pair </br>DKK <span>528.00</span></p>
+            </div>
+            <div class="price">
+                <p>60% OFF</p>
+            </div>
+        </div>
+
+        <div class="shippingInfo">
+            <div class="shipping">Free 2 Day Shipping</div>
+            <div class="price">Total : DKK 360.00</div>
+        </div>
+
+        <div class="button">
+            <button id="btn" type="submit">+ Add to Cart</button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="./verify.png" alt="success" id="successImg" />
+                <p class="modalTitle">You added all the items!</p>
+                <p class="modalSubContent">Proceed to checkout?</p>
+                <button id="okBtn">OK</button>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p><span class="c">©</span>Powered by Pumper</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
